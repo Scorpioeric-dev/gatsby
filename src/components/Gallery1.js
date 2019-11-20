@@ -41,7 +41,6 @@ class Gallery extends Component {
                 </article>
             );
         });
-        
 
         return (
             <div className="row">
@@ -50,7 +49,7 @@ class Gallery extends Component {
         );
     }
     render () {
-        const { images,images1 } = this.props;
+        const { images } = this.props;
         const { selectedIndex, lightboxIsOpen } = this.state;
 
         return (
@@ -72,10 +71,9 @@ class Gallery extends Component {
     }
 }
 
-Gallery.displayName = 'Gallery';
-Gallery.propTypes = {
-    images: PropTypes.array,
-    images1: PropTypes.array
+Gallery1.displayName = 'Gallery';
+Gallery1.propTypes = {
+    images: PropTypes.array
 };
 
-export default Gallery;
+export default Gallery1;
