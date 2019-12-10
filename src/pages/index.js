@@ -39,9 +39,6 @@ import full14 from '../assets/images/fulls/14.jpg'
 import full15 from '../assets/images/fulls/15.jpg'
 import full16 from '../assets/images/fulls/16.jpg'
 
-
-
-
 const DEFAULT_IMAGES = [
   {
     id: '1',
@@ -154,14 +151,14 @@ const TRUCK_IMAGES = [
     // thumbnail: thumb06,
     // caption: 'Photo 6',
     // description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
-  }, 
+  },
   {
     id: '16',
     source: full16,
     // thumbnail: thumb06,
     // caption: 'Photo 6',
     // description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
-  }
+  },
 ]
 
 class HomeIndex extends React.Component {
@@ -186,24 +183,20 @@ class HomeIndex extends React.Component {
               </h2>
             </header>
             <p>
-              I'm a huge Harry Potter fan (Who isn't right?) and yes I have read
-              each book in the series. I'm a true extrovert and enjoy working
-              with people in all areas from web development, business, social
-              activism , and recently started coding and it's opened my eyes to
-              endless posssibilities of creating a positive impact on a larger
+              I'm a huge Harry Potter fan ( Gryffindor All Day ) and yes I have
+              read each book in the series. I'm a true extrovert and enjoy
+              working with people in all areas from Web Development, Business,
+              Social activism , and really enjoy coding it's opened my eyes to
+              endless possibilities of creating a positive impact on a larger
               scale. <br />
-              Not for the light hearted tell you that. I've build a few
-              applications that required me to push myself and learn new
-              technologies such as Twilio, socket.io, and Stripe. I'm truly
-              excited to see where this developing skill set will take me and
-              how I can help others through this medium.
+              I've build a few applications that required me to learn new
+              technologies such as Twilio, Socket.io, and Stripe which was
+              exciting I just built a app using React Native so constantly
+              learning. I'm truly excited to see where this developing skill set
+              will take me and how I can help others through this medium.
             </p>
             <ul className="actions">
-              <li>
-                <a href="#" className="button">
-                  
-                </a>
-              </li>
+              <li></li>
             </ul>
           </section>
 
@@ -219,7 +212,6 @@ class HomeIndex extends React.Component {
                   description,
                 })
               )}
-              
             />
 
             <Gallery
@@ -232,8 +224,7 @@ class HomeIndex extends React.Component {
                 })
               )}
             />
-            
-            
+
             <ul className="actions">
               <li>
                 <a href="#" className="button">
